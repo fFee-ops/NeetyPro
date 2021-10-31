@@ -1,6 +1,8 @@
 package netty.protocoltcp;
 
-
+/**
+ * 为了防止tcp粘包自定义的格式
+ */
 //协议包
 public class MessageProtocol {
     private int len; //关键
